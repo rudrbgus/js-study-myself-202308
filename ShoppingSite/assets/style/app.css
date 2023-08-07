@@ -1,1 +1,50 @@
 @import url(default.css);
+
+/* header */
+#header{
+    /* 배경 */
+    background: orange;
+    /* 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+    /* 크기 */
+    width: 100%;
+    height: 8vh;
+}
+
+/* ul */
+.itemboxwrapper-itembox{
+    /* 배경 */
+    /* background: greenyellow; */
+    /* 정렬 */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    /* 크기 */
+    width: 80%;
+    /* height: 92vh;  */
+    margin: 0px auto;
+
+}
+
+/* li */
+.itemboxwrapper-itembox-item{
+    /* background: aquamarine; */
+    width: 48%;
+    height: 250px;   
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 0;
+    
+}
+
+.itemboxwrapper-itembox-item .item-img{
+    height: 70%;
+}
